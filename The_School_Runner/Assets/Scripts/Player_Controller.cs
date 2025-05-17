@@ -5,9 +5,13 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] Transform centre_pos;
     [SerializeField] Transform left_pos;
     [SerializeField] Transform right_pos;
+    [SerializeField] Rigidbody rb;
+    
 
     int current_pos = 0;
     public float side_speed;
+    public float runing_speed;
+    public float jump_force;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,7 +20,8 @@ public class Player_Controller : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+        transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z + runing_speed*Time.deltaTime);
         if (current_pos == 0)
         {
             if (Input.GetKeyDown(KeyCode.LeftArrow))
@@ -69,6 +74,12 @@ public class Player_Controller : MonoBehaviour
                 transform.Translate(dir.normalized * side_speed * Time.deltaTime, Space.World);
             }
             
+        }
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            //rb.AddForce(Vector3.up * jump_force);
+
+            rb.linearVelocity = Vector3.up * jump_force;
         }
     }
 }
