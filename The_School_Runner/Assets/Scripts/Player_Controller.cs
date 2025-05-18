@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Player_Controller : MonoBehaviour
@@ -15,17 +16,19 @@ public class Player_Controller : MonoBehaviour
     public float jump_force;
 
     bool isGameStarted = false;
+    bool isGameOver = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         isGameStarted = false;
+        isGameOver = false;
         current_pos = 0;  // 0 = center, 1 = left, 2 = right
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!isGameStarted)
+        if(!isGameStarted || !isGameOver)
         {
             if(Input.GetMouseButtonDown(0))
             {
@@ -98,7 +101,29 @@ public class Player_Controller : MonoBehaviour
                 //rb.AddForce(Vector3.up * jump_force);
 
                 rb.linearVelocity = Vector3.up * jump_force;
+                StartCoroutine(Jump());
             }
+        }
+
+        
+    }
+
+    IEnumerator Jump()
+    {
+        playerAnimator.SetInteger("isJump", 1);
+        yield return new WaitForSeconds(0.1f);
+        playerAnimator.SetInteger("isJump", 0);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "object")
+        {
+            isGameStarted = false;
+            isGameOver = true;
+            playerAnimator.applyRootMotion = true;
+            playerAnimator.SetInteger("isDied", 1);
+           
         }
     }
 }
