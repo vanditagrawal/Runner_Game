@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: decf3ad73c5807c4dbafc5335f5c8ac0
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bag1Mat
+    second: {fileID: 2100000, guid: a5653b81a2977b649b091fd48351de3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bag2Mat.001
+    second: {fileID: 2100000, guid: a8f67892b3d7bac4c8cab0484a9e4d21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bag3Mat.001
+    second: {fileID: 2100000, guid: aa5784e7ac9e8ef4db63c31cc1a450c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bag4Mat
+    second: {fileID: 2100000, guid: 520ac1398fe0a1f4a862361d22d1ee69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bag5Mat
+    second: {fileID: 2100000, guid: 97b2470a250dfff4a9f8373cf7de9ad9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoardMat
+    second: {fileID: 2100000, guid: f76ad83d1f8a5554b8b5db4781a2d969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book1Mat
+    second: {fileID: 2100000, guid: 86ae53581e3a5c9419c595676da45945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BookShelfMat
+    second: {fileID: 2100000, guid: d57f4a02ba2722b49ac7c3c5b30728c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BooksMat
+    second: {fileID: 2100000, guid: fe9b2356f092c934bbe781f403d23d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CardboardBoxMat
+    second: {fileID: 2100000, guid: 5c4e9580932c94e4dbce6edc7ac39526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CellingMat
+    second: {fileID: 2100000, guid: f12b55696256e234c8a7880f2a2308c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClockMat
+    second: {fileID: 2100000, guid: efc329b144fc6164db7353ae8ea2d01d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CracksMat
+    second: {fileID: 2100000, guid: 7dbd233646c4f7640ac6d030f3caf402, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CurtainMat
+    second: {fileID: 2100000, guid: 0385fa1151d749f40ae3d13e4f0c61de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DecalsMat
+    second: {fileID: 2100000, guid: ffc1d60c7ade64545ab7514c1e476bd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desk1Mat
+    second: {fileID: 2100000, guid: c60e0223719c73f4ca8390203d72ae01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desk2Mat
+    second: {fileID: 2100000, guid: de9a9ce7aa9c1f142b03010c9854a942, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desk3Mat
+    second: {fileID: 2100000, guid: f00fadcba419f8146878b269c8b4e6c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Desk4Mat
+    second: {fileID: 2100000, guid: a4f314b94fb8f254d8320a4bccd7b1fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorMat.002
+    second: {fileID: 2100000, guid: 7057995a237b17848b2474ab749f9fa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorMat
+    second: {fileID: 2100000, guid: db2856230c87f3549bbb375027a96d4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassMat
+    second: {fileID: 2100000, guid: 40a93dde542107e499df805c6931e477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlobeMat
+    second: {fileID: 2100000, guid: 0a9c5dc851bbdc944a9362086397f41d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lights
+    second: {fileID: 2100000, guid: e9e6109f447c6b84b8a22c40af750e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LockerMat
+    second: {fileID: 2100000, guid: f4ec5a24e8381214fa14cf1836d007b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MapMat
+    second: {fileID: 2100000, guid: 927562202024c774f8f3b34630178eb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None
+    second: {fileID: 2100000, guid: f8145b2b643b9f8468b1f736337617ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outline
+    second: {fileID: 2100000, guid: 9b208247e3add0d4a902058ddb8da8fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PapersMat
+    second: {fileID: 2100000, guid: 79b952611512b0940b8aa579cc577f25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pencil1Mat
+    second: {fileID: 2100000, guid: b2e778b95e43833459a0d9781c337828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PencilsMat
+    second: {fileID: 2100000, guid: f4b883e0d737ad9429ade404e9636072, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant1Mat
+    second: {fileID: 2100000, guid: 12ae8976f2d297e4982c781e3a02ddb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant2Mat
+    second: {fileID: 2100000, guid: ce4ffd96c6a742442a00cecddac4453c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant3Mat
+    second: {fileID: 2100000, guid: 915e370eda1af4f4da1099659237fd32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plant4Mat
+    second: {fileID: 2100000, guid: d9fc3d5af4860574889694a6055ac801, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeachersChairMat
+    second: {fileID: 2100000, guid: b2b1107f1f0b494449cde00a5a2c3f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeachersDeskMat
+    second: {fileID: 2100000, guid: 4000fa84ac0dfb44b86923ce934ccc9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeachersDeskMat.001
+    second: {fileID: 2100000, guid: 287db59a78cf3174282f7f0269d2c4ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashBinMat
+    second: {fileID: 2100000, guid: 42b48c0765e27fd409e57f89b02feb6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WallPartsMat
+    second: {fileID: 2100000, guid: eadf4a3703c8a4a40a734d49fd1f50aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WallsMat
+    second: {fileID: 2100000, guid: 23325bc01199e4540a324401352c226e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WinodwsMat
+    second: {fileID: 2100000, guid: 304218a4a3cd72448968f854e2a56d59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chalkboardMat
+    second: {fileID: 2100000, guid: df1262ba766f8dd4bb4959dc251df37b, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
